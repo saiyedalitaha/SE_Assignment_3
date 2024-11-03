@@ -1,0 +1,165 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil Calibri;}}
+{\colortbl ;\red255\green255\blue0;\red0\green255\blue0;\red0\green255\blue255;\red192\green192\blue192;\red247\green150\blue70;\red128\green128\blue128;\red204\green180\blue0;\red128\green128\blue0;}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs22\lang9 THEORY EXERCISE of module 4 - OOPS Programming\par
+\highlight1\fs44 Introduction to C++\highlight0\fs22\par
+1. What are the key differences between Procedural Programming and Object-Oriented\par
+Programming (OOP)?\par
+Ans.Object-oriented Programming uses classes and objects, Procedural Programming takes on applications by solving problems from the top of the code down to the bottom.\par
+2. List and explain the main advantages of OOP over POP.\par
+Ans.\par
+^  Advantages of OOP\par
+OOP offers many benefits, from its maintainability and security to its reusability and overall ease of use.Advantages like easy to maintain & upgrade,Reduce redundancy ,Easy to reuse,Reliability,flexiblity,Strong security\par
+\par
+Easy to maintain and upgrade\par
+Due to OOP's rich libraries, programs can be quickly and easily maintained or upgraded. OOP's reusability also aids in faster development.  \par
+\par
+Easy to reuse\par
+Encapsulation, a key concept of OOP, allows you to declare hundreds of objects quickly by defining the class only once. This makes the code easy to understand and use in other applications. \par
+\par
+Reliability\par
+OOP can increase reliability by using data abstraction. This creates greater reliability because unnecessary parts of the code are hidden from the user. This allows users to focus only on the needed functions rather than noncritical details. \par
+\par
+Flexibility\par
+With the help of data binding, OOP is highly flexible because code is defined only at run time. \par
+\par
+-Reduce redundancy \par
+OOP reduces redundancy with the use of inheritance. Using the inheritance function, codes are easily recreated by inheriting the properties of already created codes. \par
+\par
+- Strong security\par
+In addition to allowing reusability, encapsulation keeps data secure by hiding data from unauthorised users using access modifiers. \par
+Advantages of POP\par
+POP has many advantages, including easy learning, top-down structure, and speedy coding. The thread tying these advantages together is the ability to jump into coding without developing an entire program code. advantages like easy to learn , top down structure, Coding etc\par
+-Easy to learn\par
+Because you don\rquote t need to write an entire program all at once, you can simply go online and find small pieces of code they wish to use and copy and paste them into place. This makes POP a popular starting point for many new programmers.  \par
+\par
+-Top-down structure\par
+The top-down structure of POP allows you to work on one piece of code at a time rather than planning an entire program's worth of code before starting. \par
+\par
+-Coding\par
+As previously mentioned, the ability to begin coding immediately without spending hours in development is an advantage you may appreciate. This allows you to write small bits of code when inspiration strikes rather than having to plan everything out ahead of time. \par
+ \par
+ 3. Explain the steps involved in setting up a C++ development environment.\par
+Ans. steps are as considered\par
+-Install a supported version of C++ compatible with Google Cloud.\par
+-Install a C++ build system.\par
+-Install an editor (optional).\par
+-Install the Google Cloud CLI (optional).\par
+-Install the Cloud Client Libraries for C++ (optional).\par
+-Set up authentication\par
+ 4. What are the main input/output operations in C++? Provide example\par
+\par
+Ans. In C++, input and output operations are performed using streams, which are sequences of bytes that can be read from or written to. The C++ standard library provides several classes and functions for working with streams The two most commonly used streams for basic input and output are cin and cout in C++\par
+ \highlight2\fs44 Variables, Data Types, and Operators\highlight0\fs22\par
+1. What are the different data types available in C++? Explain with examples. \par
+Ans. there are five basic data types: int, float, char, bool, and double. \par
+- int(Integers) -Integer data types represent whole numbers without a fractional or decimal part.\par
+- float (floating-point) - Floating-point data types represent numbers with a fractional part. In C++, `float` is a single-precision floating-point type\par
+- Char (characters) -Character data types represent individual characters from a character set,\par
+- Bool (Boolean values) - Boolean data types represent binary values, typically used for true (1) or false (0) conditions. In C++, `bool` is used for Boolean data.\par
+- double (double-floating point) -Double-precision floating-point data types are used to represent numbers with a larger range and higher precision compared to 'float'.\par
+2. Explain the difference between implicit and explicit type conversion in C++. \par
+Ans.In programming, type casting is a way to convert data from one type to another\par
+The main difference between implicit and explicit type conversion in C++ is that implicit conversion happens automatically, while explicit conversion is done by the programmer\par
+  (1).Implicit conversion\par
+The language or program automatically converts a value from one data type to another. For example, if a variable is declared as a double but an integer is used as its value, the conversion will happen automatically.\par
+(2).Explicit conversion\par
+The programmer explicitly calls for a type to be converted to another. This is also known as typecasting. The programmer uses casting to specify what type the value should be converted to.\par
+3.What are the different types of operators in C++? Provide examples of each. \par
+Ans. Assignment Operators\par
+Assignment (=) The assignment operator assigns the value of the right operand to the left operand. ...\par
+Addition assignment (+=) ...\par
+Subtraction assignment (-=) ...\par
+Multiplication assignment (*=) ...\par
+Division assignment (/=) ...\par
+Modulus assignment (%=) ...\par
+Left shift assignment (<<=) ...\par
+Right shift assignment (>>=)\par
+4. Explain the purpose and use of constants and literals in C++\par
+Ans.Constants are passed as arguments to a function, where they can be used for specific operations. Functions can also return constants/literals as their result, which can be stored in variables or used directly.\par
+\highlight3\fs44 Control Flow Statement\fs22\par
+\highlight0 1. What are conditional statements in C++? Explain the if-else and switch statements. \par
+Ans.Conditional statements in C++ are used to control the flow of a program by performing different actions based on whether a condition is true or false:\par
+If-else: Executes a block of code if a condition is true, and an alternate block of code if the condition is false\par
+Else-if: Tests a new condition if the first condition is false\par
+Switch: Compares the value of a variable to multiple possibilities and executes the statement for the matching case\par
+2. What is the difference between for, while, and do-while loops in C++?\par
+Ans. The main differences between for, while, and do-while loops in C++ are: \par
+-For loop\par
+Used when the number of iterations is known in advance. For loops include a starting point, counter, and ending point. The counter variable can be referenced within the loop. \par
+-While loop\par
+Repeats while a given condition is true. While loops are entry-controlled loops, meaning the condition is evaluated at the beginning of each iteration. If the condition is false, the loop body will not execute. \par
+- Do-while loop\par
+Guarantees at least one execution of the loop body before checking the condition. Do-while loops are exit-controlled loops, meaning the condition is evaluated at the end of each iteration. This ensures that the loop body executes at least once, regardless of the condition. \par
+3. How are break and continue statements used in loops? Provide examples. \par
+Ans.Break and continue statements are used in loops to control the flow of the loop and exit or skip iterations. Here's how they work\par
+Break: Exits the loop or switch statement entirely. For example :for(int i = 0; i < 10; i++) \{ if(i == 5) break; \}\par
+Continue\par
+Skips the current iteration of a loop and continues with the next iteration. For example:for(int i = 0; i < 10; i++) \{ if(i == 5) continue; \}\par
+\par
+4. Explain nested control structures with an example\par
+Ans. A nested control structure is a control statement that is placed inside another control statement\par
+ for example an If...Then... Else block within a For... Next loop.\par
+\highlight4  \cf5\fs44 Functions and Scope\cf0\highlight0\fs22\par
+1. What is a function in C++? Explain the concept of function declaration, definition, and\par
+calling.\par
+Ans.In C++, a function is a block of code that performs a task and can be called to run multiple times. Functions are made up of two parts: a declaration ,calling  and a definition.\par
+-Declaration\par
+Informs the compiler about the function's name, parameters, data types, and return type. The declaration is used to announce the function's existence to the compiler.\par
+-Definition\par
+Contains the code that the compiler will execute when the function is called. The function definition must return a single value when it's finished. \par
+-Call a Function\par
+Declared functions are not executed immediately. They are "saved for later use", and will be executed later, when they are called.\par
+\par
+ 2. What is the scope of variables in C++? Differentiate between local and global scope. \par
+Ans .In C++, the scope of a variable is the part of the program where it can be used. The two scopes for C++ variables are local and global: \par
+Local scope\par
+A local variable is only accessible within the function or block where it is declared. It cannot be accessed outside of that block.\par
+Global scope\par
+A global variable is accessible throughout the entire program, from the point it is declared to the end of the program. Global variables can be accessed from the top level of the module and from within function bodies\par
+3. Explain recursion in C++ with an example.\par
+Ans.A function that calls itself is known as a recursive function. And, this technique is known as recursion.\par
+Recursive Function: nSum() is the Recursive Function\par
+Recursive Case: The expression, int res = n + nSum(n \f1\endash  1) is the Recursive Case.\par
+Base Condition: The base condition is if (n == 0) \{ return 0;\}\f0\par
+ 4. What are function prototypes in C++? Why are they used?\par
+Ans. The function prototypes are used to inform the compiler about the number of arguments, the needed data types of a function parameter, and the function's return type. The compiler uses this information to cross-check function signatures before invoking them\par
+\highlight6  \cf7\fs44 Arrays and Strings\cf0\fs22\par
+\highlight0 1. What are arrays in C++? Explain the difference between single-dimensional and multi- dimensional arrays.\par
+Ans. A group or collection of similar kinds of elements or data items that are stored together in contiguous memory spaces\par
+While a one-dimensional array stores elements in a single line\par
+a multi-dimensional array stores them in a table format. \par
+ 2. Explain string handling in C++ with examples. \par
+Ans.A string is an object that represents a group or a sequence of characters. The string is represented as a one-dimensional array of characters and ends with a \\0 (null character). for example Strings in C++ can be defined either using the std::string class or the C-style character arrays.\par
+\par
+3. How are arrays initialized in C++? Provide examples of both 1D and 2D arrays. \par
+Ans. one-dimensional arrays, two-dimensional arrays may be initialized by following their declaration with a list of initial values enclosed in braces.\par
+ Ex: int a[2][3]=\{0,0,0,1,1,1\}; initializes the elements of the first row to zero and the second row to one. The initialization is done row by row.\par
+4. Explain string operations and functions in C++.\par
+Ans.The string operations include concatenation, scanning, substringing, translation, and verification.String operations can only be used on character\par
+\cf1\highlight8\fs44 Introduction to Object-Oriented Programme\cf0\highlight0\fs22\par
+1. Explain the key concepts of Object-Oriented Programming (OOP). \par
+Ans. OOP concepts include abstraction, encapsulation, inheritance and polymorphism.\par
+Encapsulation: Objects contain all important information, and only select information is exposed. \par
+Abstraction: Objects only reveal internal mechanisms that are relevant for other objects, hiding unnecessary implementation code. \par
+Inheritance: Classes can reuse code and properties from other classes. \par
+Polymorphism: Objects can share behaviors and take on more than one form. \par
+2. What are classes and objects in C++? Provide an example. \par
+Ans. classes are templates that define the properties and functions of an entity, \par
+Example of class can be car\par
+objects are instances of a class that combine data and functions into a single unit\par
+Objects of the class car can be BMW, Mercedes, jaguar, etc\par
+3. What is inheritance in C++? Explain with an example. \par
+Ans. Inheritance in C++ is a mechanism that allows you to reuse and extend existing classes without modifying them.\par
+There are mainly five types of Inheritance in C++ that you will explore in this article. They are as follows:\par
+Single Inheritance\par
+Multiple Inheritance : Multiple Inheritance is a feature of C++ where a class can inherit from more than one classes.  The constructors of inherited classes are called in the same order in which they are inherited.\par
+Multilevel Inheritance\par
+Hierarchical Inheritance\par
+Hybrid Inheritance\par
+4. What is encapsulation in C++? How is it achieved in classes ?\par
+Ans.In C++, encapsulation is a technique that hides data and functions that operate on that data within a class.\par
+to make sure that "sensitive" data is hidden from users\par
+\par
+}
+ 
